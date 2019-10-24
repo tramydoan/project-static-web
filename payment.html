@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" type="text/css" href="css/all.min.css">
+
+	<!-- Global CSS -->
+	<link rel="stylesheet" type="text/css" href="css/global.css">
+
+	<!-- Responsive CSS -->
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+	<!-- Header CSS -->
+	<link rel="stylesheet" type="text/css" href="css/header.css">
+
+	<!-- Footer CSS -->
+	<link rel="stylesheet" type="text/css" href="css/footer.css">
+
+	<!-- Payment CSS -->
+	<link rel="stylesheet" type="text/css" href="css/payment.css">
+
+	<title>Thanh toán</title>
+</head>
+<body>
+	<!-- Header -->
+	<div id="header"></div>
+
+	<!-- Breadcrumb -->
+	<div class="bc-wrap container px-0">
+		<nav aria-label="breadcrumb">
+			<ol class="breadcrumb">
+				<li class="breadcrumb-item"><a href="index.html">Trang chủ</a></li>
+				<li class="breadcrumb-item active" aria-current="page"><a href="payment.html">Thanh toán</a></li>
+			</ol>
+		</nav>
+	</div>
+
+	<!-- Main -->
+	<div class="payment-wrap container px-0">
+		<div class="payment-form">
+			<div class="step">
+				<div class="billing-address">
+					<div class="section-header">
+						<p class="section-title">Thông tin giao hàng</p>
+						<p class="section-account">
+							<span>Bạn đã có tài khoản?</span>
+							<a href="signin.html">Đăng nhập</a>
+						</p>
+					</div>
+					<div class="section-content">
+						<form>
+							<input type="text" class="form-control" id="name" placeholder="Họ và tên" required>	
+							<input type="email" class="form-control" id="email" placeholder="Email">
+							<input type="text" class="form-control" id="phone" placeholder="Số điện thoại">
+							<input type="text" class="form-control" id="address" placeholder="Địa chỉ">
+							<select class="form-control">
+								<option disabled="" selected="" hidden="">Tỉnh / Thành phố</option>
+								<option>Hồ Chí Minh</option>
+								<option>Hà Nội</option>
+								<option>Đà Nẵng</option>
+							</select>
+							<select class="form-control">
+								<option disabled="" selected="" hidden="">Quận / Huyện</option>
+								<option>Quận Ba Đình</option>
+								<option>Quận Tây Hồ</option>
+								<option>Quận Hoàn Kiếm</option>
+							</select>
+							<select class="form-control">
+								<option disabled="" selected="" hidden="">Phường / Xã</option>
+								<option>Phường Đội Cấn</option>
+								<option>Phường Giảng Võ</option>
+								<option>Phường Kim Mã</option>
+							</select>
+						</form>
+					</div>
+				</div>
+
+				<div class="shipping-method">
+					<div class="section-header">
+						<p class="section-title">Phương thức vận chuyển</p>
+					</div>
+					<div class="shipping-card">
+						<div class="custom-control custom-radio custom-control">
+							<input type="radio" id="shipping-method" name="shipping-method" class="custom-control-input" checked="checked">
+							<label class="custom-control-label" for="shipping-method">Giao hàng có phí (thanh toán sau)</label>
+						</div>
+					</div>
+				</div>
+
+				<div class="payment-method">
+					<div class="section-header">
+						<p class="section-title">Phương thức thanh toán</p>
+					</div>
+					<div class="payment-method-content">
+						<div class="accordion" id="accordionExample">
+							<div class="card">
+								<div class="card-header" id="headingOne">
+									<div data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" class="custom-control custom-radio custom-control-inline">
+										<input type="radio" id="payment-method1" name="payment-method" class="custom-control-input" checked="checked">
+										<label class="custom-control-label" for="payment-method1">Chuyển khoản Vietcombank (Yêu thích)</label>
+									</div>
+								</div>
+
+								<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+									<div class="card-body">Vui lòng ghi rõ tên và số điện thoại
+									</div>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card-header" id="headingTwo">
+									<div data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" class="custom-control custom-radio custom-control-inline">
+										<input type="radio" id="payment-method2" name="payment-method" class="custom-control-input">
+										<label class="custom-control-label" for="payment-method2">Thanh toán qua ví Momo</label>
+									</div>
+								</div>
+								<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+								</div>
+							</div>
+							<div class="card">
+								<div class="card-header" id="headingThree">
+									<div data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" class="custom-control custom-radio custom-control-inline">
+										<input type="radio" id="payment-method3" name="payment-method" class="custom-control-input">
+										<label class="custom-control-label" for="payment-method3">Thanh toán bằng thẻ ATM/Visa/Master/JCB</label>
+									</div>
+								</div>
+								<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="step-footer">
+						<a class="step-footer-previous-link" href="mycart.html"><i class="fas fa-chevron-left"></i>Giỏ hàng</a>
+						<button name="button" type="submit" id="continue_button" class="step-footer-continue-btn btn">Hoàn tất đơn hàng</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="cart-aside-wrap">
+			<div class="cart-aside-content">
+				<div class="cart-aside-product">
+					<div class="payment-product-table">
+						<div class="product">
+							<div class="product-image">
+								<img src="images/Products/My Cart/payment1.png">
+								<span class="product-thumbnail-quantity">1</span>
+							</div>
+							<div class="product-info">Sierra Chair</div>
+							<div class="product-price">3,550,000₫</div>
+						</div>
+						<div class="product">
+							<div class="product-image">
+								<img src="images/Products/My Cart/payment2.png">
+								<span class="product-thumbnail-quantity">1</span>
+							</div>
+							<div class="product-info">Bronson Sideboard</div>
+							<div class="product-price">5,650,000₫</div>
+						</div>
+						<div class="product">
+							<div class="product-image">
+								<img src="images/Products/My Cart/payment3.png">
+								<span class="product-thumbnail-quantity">1</span>
+							</div>
+							<div class="product-info">Tufted Ottoman</div>
+							<div class="product-price">2,995,000₫</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="cart-aside-discount">
+				<input class="form-control input-discount" type="text" name="discount" placeholder="Mã giảm giá">
+				<button class="btn button-discount" name="button" type="submit">Sử dụng</button>
+			</div>
+			<div class="cart-aside-total">
+				
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Footer -->
+<div id="footer"></div>
+
+<!-- jQuery -->
+<script src="js/jquery-3.4.1.min.js"></script>
+
+<!-- Popper.js -->
+<script src="js/popper.min.js"></script>
+
+<!-- Bootstrap JS -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Font Awesome -->
+<script src="https://kit.fontawesome.com/bf61fecb7c.js" crossorigin="anonymous"></script>
+
+<!-- Script JS -->
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

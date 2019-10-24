@@ -1,0 +1,68 @@
+.tel {
+	display: flex;
+	justify-content: flex-end;
+}
+.tels {
+	background: #f8f9fa;
+}
+.circle-phone {
+	display: flex;
+	width: 20px;
+	height: 20px;
+	border: 1px solid #000;
+	border-radius: 50%;
+	justify-content: center;
+	align-items: center;
+}
+.phone-number {
+	font-size: 14px;
+	color: #e00000;
+	font-weight: 600;
+	padding: 0 5px;
+}
+.logo {
+	text-align: right;
+	font-size: 32px;
+	font-weight: 1000;
+	padding: 50px 0;
+	text-transform: uppercase;
+	width: 60%;
+}
+.logo-zone {
+	display: flex;
+}
+.header-wrap-icon {
+	width: 40%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.header-icon {
+	padding: 0 5px;
+	font-size: 18px;
+}
+.menu {
+	display: flex;
+	justify-content: center;
+	font-family: 'myFont';
+	margin-bottom: 2%;
+}
+.menu > * {
+	margin-right: 50px;
+	font-size: 16px;
+}
+.animation-shake {
+	font-size: 10px;
+	animation: shake .5s linear infinite;
+}
+@keyframes shake {
+	0% {
+		transform: rotate(0deg);
+	}
+	50% {
+		transform: rotate(20deg);
+	}
+	100% {
+		transform: rotate(0deg);
+	}
+}

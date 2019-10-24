@@ -1,0 +1,78 @@
+[
+	{
+		"name": "Table",
+		"price": "$36.66",
+		"sale": "20%",
+		"categories": "table",
+		"description": "asdfgakjshdfgakjhsdf",
+		"image": "https://hoaphat.net.vn/images/wp-content/uploads/2013/04/ban-ghe-doc-dao-4.jpg",
+		"thumnails": [
+			{
+				"item": "https://hoaphat.net.vn/images/wp-content/uploads/2013/04/ban-ghe-doc-dao-4.jpg"
+			},
+			{
+				"item": "https://hoaphat.net.vn/images/wp-content/uploads/2013/04/ban-ghe-doc-dao-4.jpg"
+			},
+			{
+				"item": "https://hoaphat.net.vn/images/wp-content/uploads/2013/04/ban-ghe-doc-dao-4.jpg"
+			}
+		]
+	},
+	{
+		"name": "Table",
+		"price": "$36.66",
+		"sale": "20%",
+		"categories": "table",
+		"description": "asdfgakjshdfgakjhsdf",
+		"image": "https://hoaphat.net.vn/images/wp-content/uploads/2013/04/ban-ghe-doc-dao-4.jpg",
+		"thumnails": [
+			{
+				"item": "https://hoaphat.net.vn/images/wp-content/uploads/2013/04/ban-ghe-doc-dao-4.jpg"
+			},
+			{
+				"item": "https://hoaphat.net.vn/images/wp-content/uploads/2013/04/ban-ghe-doc-dao-4.jpg"
+			},
+			{
+				"item": "https://hoaphat.net.vn/images/wp-content/uploads/2013/04/ban-ghe-doc-dao-4.jpg"
+			}
+		]
+	},
+	{
+		"name": "Table",
+		"price": "$36.66",
+		"sale": "20%",
+		"categories": "table",
+		"description": "asdfgakjshdfgakjhsdf",
+		"image": "https://hoaphat.net.vn/images/wp-content/uploads/2013/04/ban-ghe-doc-dao-4.jpg",
+		"thumnails": [
+			{
+				"item": "https://hoaphat.net.vn/images/wp-content/uploads/2013/04/ban-ghe-doc-dao-4.jpg"
+			},
+			{
+				"item": "https://hoaphat.net.vn/images/wp-content/uploads/2013/04/ban-ghe-doc-dao-4.jpg"
+			},
+			{
+				"item": "https://hoaphat.net.vn/images/wp-content/uploads/2013/04/ban-ghe-doc-dao-4.jpg"
+			}
+		]
+	},
+	{
+		"name": "Table",
+		"price": "$36.66",
+		"sale": "20%",
+		"categories": "table",
+		"description": "asdfgakjshdfgakjhsdf",
+		"image": "https://hoaphat.net.vn/images/wp-content/uploads/2013/04/ban-ghe-doc-dao-4.jpg",
+		"thumnails": [
+			{
+				"item": "https://hoaphat.net.vn/images/wp-content/uploads/2013/04/ban-ghe-doc-dao-4.jpg"
+			},
+			{
+				"item": "https://hoaphat.net.vn/images/wp-content/uploads/2013/04/ban-ghe-doc-dao-4.jpg"
+			},
+			{
+				"item": "https://hoaphat.net.vn/images/wp-content/uploads/2013/04/ban-ghe-doc-dao-4.jpg"
+			}
+		]
+	}
+]

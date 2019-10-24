@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" type="text/css" href="css/all.min.css">
+
+	<!-- Global CSS -->
+	<link rel="stylesheet" type="text/css" href="css/global.css">
+
+	<!-- Responsive CSS -->
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+	<!-- Header CSS -->
+	<link rel="stylesheet" type="text/css" href="css/header.css">
+
+	<!-- Footer CSS -->
+	<link rel="stylesheet" type="text/css" href="css/footer.css">
+
+	<!-- Details CSS -->
+	<link rel="stylesheet" type="text/css" href="css/details.css">
+
+	<!-- W3 Schools -->
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+	<title>Chi tiết sản phẩm</title>
+</head>
+<body>
+	<!-- Header -->
+	<div id="header"></div>
+
+	<!-- Breadcrumb -->
+	<div class="breadcrumb-custom">
+		<div class="container">
+			<a href="index.html">Trang chủ </a>/
+			<a href="mycart.html">Giỏ hàng</a>
+		</div>
+	</div>
+
+	<!-- Main -->
+	<div class="product container px-0">
+		<div class="w3-content">
+			<img class="mySlides" src="images/Products/Details/small4.jpg" style="width:100%;display:none">
+			<img class="mySlides" src="images/Products/Details/small1.jpg" style="width:100%">
+			<img class="mySlides" src="images/Products/Details/small5.jpg" style="width:100%;display:none">
+
+			<div class="w3-row-padding w3-section">
+				<div class="w3-col s4">
+					<img class="demo w3-opacity w3-hover-opacity-off" src="images/Products/Details/small4.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(1)">
+				</div>
+				<div class="w3-col s4">
+					<img class="demo w3-opacity w3-hover-opacity-off" src="images/Products/Details/small1.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(2)">
+				</div>
+				<div class="w3-col s4">
+					<img class="demo w3-opacity w3-hover-opacity-off" src="images/Products/Details/small5.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(3)">
+				</div>
+			</div>
+		</div>
+
+
+		<div class="summary">
+			<p style="margin-bottom: 1%;" class="product-title">Sierra Chair</p>
+			<div class="stock">
+				<span style="padding: 0 15px 0 0;"><strong>Tình trạng</strong>: Còn hàng</span>
+				<span><strong>Xuất xứ</strong>: Nhập khẩu</span>
+			</div>
+			<div class="product-price"><span>3,550,000₫</span></div>
+			<p class="categories">Danh mục: <a href="newarivals.html">Phòng ngủ</a>, <a href="newarivals.html">Ghế</a></p>
+			<span>Số lượng</span>
+			<div class="buy">
+				<div class="quantity">
+					<button class="qty-decrease" onclick="" type="button">-</button>
+					<input id="qty" type="text" name="quantity" value="1" class="" size="4">
+					<button class="qty-increase" onclick="" type="button">+</button>
+				</div>
+				<div class="button-cart">
+					<button type="submit" class="btn add-to-cart link-to"><a id="link-add-to-cart" href="mycart.html">THÊM VÀO GIỎ</a></button>
+				</div>
+			</div>
+			<div>
+				<ul class="nav nav-tabs" id="myTab" role="tablist">
+					<li class="nav-item">
+						<a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Mô tả</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Giao hàng</a>
+					</li>
+				</ul>
+				<div class="tab-content" id="myTabContent">
+					<div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+						<ul>
+							<li>Ghế Sierra được làm thủ công tại Los Angeles, California.</li>
+							<li>Khung thép mỏng, mở cho phép thiết kế kết hợp không gian ấm cúng và ánh sáng tự nhiên</li>
+							<li>Các đường nét rõ ràng của khung được khen ngợi với bốn dây đai vải đay, làm mềm mảnh</li>
+							<li>Các dây vải đay treo một cái đệm đơn, lớn xuống tất cả, tạo ra một chỗ ngồi ấm cúng và tự nhiên.</li>
+							<li>Sự kết hợp của các vật liệu đơn giản, thanh lịch và thiết kế hiện đại California độc đáo kết hợp với nhau để tạo ra một chiếc ghế phòng chờ tinh xảo, độc đáo, rất phù hợp cho một loạt các không gian và sử dụng.</li>
+						</ul>
+					</div>
+					<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">Các sản phẩm Bedding khách hàng thanh toán chi phí với bên vận chuyển khi nhận hàng: GrabExpress trong nội thành và Viettel Post cho các khu vực còn lại trên toàn quốc. Các sản phẩm bàn, ghế, kệ... chỉ giao hàng trong nội thành sẽ được nhân viên báo đến khách hàng khi xác nhận đơn hàng và cộng vào khi ra hoá đơn.</div>
+				</div>
+			</div>
+		</div>
+
+	</div> 
+	<div class="related-product container px-0">
+		<p class="related-product-header" style="text-align: center;">SẢN PHẨM LIÊN QUAN</p>
+		<div class="row">
+			<div class="col-item col-xs-6 col-md-4">
+				<div class="item-container">
+					<div class="photo">
+						<img src="images/Products/Details/related1.png">
+					</div>
+					<div class="info">
+						<p style="font-weight: 600;">Leather Sierra Chair in Havana</p>
+						<p style="font-weight: 500;">2,075,000₫</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-item col-xs-6 col-md-4">
+				<div class="item-container">
+					<div class="photo">
+						<img src="images/Products/Details/related2.png">
+					</div>
+					<div class="info">
+						<p style="font-weight: 600;">Narrow Sierra Chair</p>
+						<p style="font-weight: 500;">1,075,000₫</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-item col-xs-6 col-md-4">
+				<div class="item-container">
+					<div class="photo">
+						<img src="images/Products/Details/related3.png">
+					</div>
+					<div class="info">
+						<p style="font-weight: 600;">Latigo Dining Chair</p>
+						<p style="font-weight: 500;">1,250,000₫</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer -->
+	<div id="footer"></div>
+
+	<!-- jQuery -->
+	<script src="js/jquery-3.4.1.min.js"></script>
+
+	<!-- Popper.js -->
+	<script src="js/popper.min.js"></script>
+
+	<!-- Bootstrap JS -->
+	<script src="js/bootstrap.min.js"></script>
+
+	<!-- Font Awesome -->
+	<script src="https://kit.fontawesome.com/bf61fecb7c.js" crossorigin="anonymous"></script>
+	
+	<!-- Script JS -->
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

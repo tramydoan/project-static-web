@@ -1,0 +1,22 @@
+.support {
+	background: #f8f9fa;
+	padding: 20px 0;
+	margin-bottom: 3%;
+}
+
+.footer-title {
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+.copyright {
+	color: black;
+	margin: 1%;
+	border-top: 1px solid #e5e5e5;
+	padding-top: 10px;
+	font-size: 14px;
+}
+
+i {
+	margin-right: 1%;
+}

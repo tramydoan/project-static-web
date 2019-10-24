@@ -1,0 +1,56 @@
+p {
+	margin: 0;
+}
+
+/*Filter*/
+.filter {
+	width: 20%;
+}
+.title-filter-top {
+	font-size: 22px;
+	margin: 1% 0 1% 0;
+}
+.title-filter {
+	font-size: 22px;
+	margin: 5% 0 1% 0;
+}
+
+/*New Arivals*/
+#newarivals {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 75%;
+}
+.newarivals-content {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#newarivals-item {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+#newarivals-section {
+	width: 25%;
+	margin: 20px;
+}
+.info {
+	text-align: center;
+	margin: 2% 0 5% 0;
+}
+#list-header {
+	font-size: 28px;
+	font-weight: 700;
+	padding: 0 20px;
+}
+.heading {
+	display: flex;
+	justify-content: space-between;
+}
+.sort-default {
+	border-bottom: 1px solid #000;
+
+}

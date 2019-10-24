@@ -1,0 +1,61 @@
+[
+	{
+		"newArivals":[
+			{"name": "Latigo Lounge Chair", "price": "1,750.00", "img": "latigo-lounge-chair.png", "link": "latigo-lounge-chair.html"},
+			{"name": "Mossam Nightstand", "price": "2,350.00", "img": "mossam-nightstand.png", "link": "mossam-nightstand.html"},
+			{"name": "Bronson Tower", "price": "2,200.00", "img": "bronson-tower.png", "link": "bronson-tower.html"},
+			{"name": "Tufted Ottoman", "price": "2,995.00", "img": "tufted-ottoman.png", "link": "tufted-ottoman.html"},
+			{"name": "Chambers Desk", "price": "2,650.00", "img": "chambers-desk.png", "link": "chambers-desk.html"},
+			{"name": "Mossam Credenza", "price": "4,050.00", "img": "mossam-credenza.png", "link": "mossam-credenza.html"},
+			{"name": "Latigo Lounge Chair", "price": "1,750.00", "img": "latigo-lounge-chair2.png", "link": "latigo-lounge-chair2.html"},
+			{"name": "Bronson Credenza (CHS)", "price": "3,750.00", "img": "bronson-credenza.png", "link": "bronson-credenza.html"},
+			{"name": "Spaulding Credenza", "price": "4,400.00", "img": "spaulding-credenza.png", "link": "spaulding-credenza.html"},
+			{"name": "Latigo Lounge Chair", "price": "1,750.00", "img": "latigo-lounge-chair3.png", "link": "latigo-lounge-chair3.html"}
+		]
+	},
+	{
+		"mostPopular":[
+			{"name": "Latigo Lounge Chair", "price": "1,750.00", "img": "latigo-lounge-chair.png", "link": "latigo-lounge-chair.html"},
+			{"name": "Mossam Nightstand", "price": "2,350.00", "img": "mossam-nightstand.png", "link": "mossam-nightstand.html"},
+			{"name": "Bronson Tower", "price": "2,200.00", "img": "bronson-tower.png", "link": "bronson-tower.html"},
+			{"name": "Tufted Ottoman", "price": "2,995.00", "img": "tufted-ottoman.png", "link": "tufted-ottoman.html"},
+			{"name": "Chambers Desk", "price": "2,650.00", "img": "chambers-desk.png", "link": "chambers-desk.html"},
+			{"name": "Mossam Credenza", "price": "4,050.00", "img": "mossam-credenza.png", "link": "mossam-credenza.html"},
+			{"name": "Latigo Lounge Chair", "price": "1,750.00", "img": "latigo-lounge-chair2.png", "link": "latigo-lounge-chair2.html"},
+			{"name": "Bronson Credenza (CHS)", "price": "3,750.00", "img": "bronson-credenza.png", "link": "bronson-credenza.html"},
+			{"name": "Spaulding Credenza", "price": "4,400.00", "img": "spaulding-credenza.png", "link": "spaulding-credenza.html"},
+			{"name": "Latigo Lounge Chair", "price": "1,750.00", "img": "latigo-lounge-chair3.png", "link": "latigo-lounge-chair3.html"}
+		]
+	},
+	{
+		"livingRoom":[
+			{"name":"", "price": "", "img": "", "link": ""},
+			{"name":"", "price": "", "img": "", "link": ""},
+			{"name":"", "price": "", "img": "", "link": ""},
+			{"name":"", "price": "", "img": "", "link": ""},
+			{"name":"", "price": "", "img": "", "link": ""},
+			{"name":"", "price": "", "img": "", "link": ""},
+			{"name":"", "price": "", "img": "", "link": ""},
+		]
+	},
+	{
+		"bedRoom":[
+			{"name":"", "price": "", "img": "", "link": ""},
+			{"name":"", "price": "", "img": "", "link": ""},
+			{"name":"", "price": "", "img": "", "link": ""},
+			{"name":"", "price": "", "img": "", "link": ""},
+			{"name":"", "price": "", "img": "", "link": ""},
+			{"name":"", "price": "", "img": "", "link": ""},
+		]
+	},
+	{
+		"diningRoom":[
+			{"name":"", "price": "", "img": "", "link": ""},
+			{"name":"", "price": "", "img": "", "link": ""},
+			{"name":"", "price": "", "img": "", "link": ""},
+			{"name":"", "price": "", "img": "", "link": ""},
+			{"name":"", "price": "", "img": "", "link": ""},
+			{"name":"", "price": "", "img": "", "link": ""},
+		]
+	}
+]

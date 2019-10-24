@@ -1,0 +1,97 @@
+.w3-content {
+	width: 50%;
+}
+.product {
+	display: flex;
+	margin-top: 1%;
+}
+.product-title {
+	font-size: 20px;
+	font-weight: 700;
+}
+.summary {
+	width: 50%;
+	padding: 0 20px;
+	font-family: 'myFont' !important;
+}
+.summary > * {
+	margin-bottom: 15px;
+}
+.stock {
+	font-size: 12px;
+	color: #c4c4c4;
+}
+.product-price {
+	border-top: solid 1px #e7e7e7;
+	border-bottom: solid 1px #e7e7e7;
+	padding: 10px 0;	
+	font-size: 18px;
+	font-weight: 700;
+}
+
+/*Quantity và Button add to cart*/
+.buy {
+	display: flex;
+}
+.quantity {
+	width: 30%;
+	margin-right: 10px;
+	font-weight: 700;
+	border: 1px solid #eeeeee;
+	text-align: center;
+}
+.quantity button {
+	border: 0;
+	background: none;
+	height: 40px;
+	width: auto;
+	padding: 0 15px;
+}
+#qty {
+	border: 0;
+	text-align: center;
+}
+.button-cart {
+	width: 65%;
+}
+.add-to-cart {
+	width: 80%!important;
+	background: #a4bce5;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 700;
+	padding: 3% 0;
+}
+#link-add-to-cart {
+	color: #fff;
+}
+
+/*Nav tabs*/
+.nav-tabs {
+	padding-left: 20px;
+	margin-bottom: 2%;
+}
+.tab-content {
+	font-size: 14px;
+	padding-left: 20px;
+}
+
+/*Related Product*/
+.related-product-header {
+	margin: 0 auto;
+	margin-bottom: 2%;
+	font-size: 24px;
+	font-weight: 500;
+	width: 30%;
+	border-bottom: 1px solid #000;
+	padding-bottom: 5px;
+}
+.related-product {
+	margin-top: 5%;
+	margin-bottom: 3%;
+	font-family: 'myFont';
+}
+.info {
+	text-align: center;
+	margin-top: 2%;
+}

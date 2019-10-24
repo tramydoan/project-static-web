@@ -1,0 +1,53 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-family: 'Roboto', sans-serif !important;
+}
+a {
+	color: #212529;
+}
+a:hover {
+	text-decoration: none;
+}
+p {
+	margin: 0;
+}
+@font-face {
+	font-family: 'myFont';
+	src: url('../HelveticaWorld-Regular.ttf');
+}
+
+/*Banner Header*/
+.wrap {
+	align-items: center;
+}
+.banner {
+	position: relative;
+	text-align: center;
+}
+.banner-img {
+	margin: 10px auto; 
+}
+.banner-text {
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.bnt1 {
+	font-size: 3vw;
+	font-style: bold;
+}
+.bnt2 {
+	font-size: 1.5vw;
+}
+
+/*Breadcrumb*/
+.breadcrumb-custom {
+	padding: 5px 0;
+	background: #f8f9fa;
+}

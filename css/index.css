@@ -1,0 +1,137 @@
+p {
+	margin: 0;
+}
+.btn {
+	border-radius: 0 0 0 0;
+}
+.btn-room {
+	background: #fff;
+	color: #000;
+}
+/*Sale*/
+#sale {
+	display: flex;
+	justify-content: space-between;
+}
+#sale-section {
+	width: 32%
+}
+.sale-img {
+	position: relative;
+}
+.sale-tag {
+	border: 1px solid #fff;
+	background: #fff;
+	position: absolute;
+	right: 50%;
+	transform: translate(50%, -23px);
+	padding: 10px;
+}
+.sale-info {
+	text-align: center;
+	margin-top: 35px;
+}
+
+/*Room*/
+.room {
+	display: flex;
+	justify-content: center;
+}
+.room-img {
+	width: 32%;
+}
+.title {
+	margin: 4% 0 3% 0;
+	text-align: center;
+	font-style: bold;
+}
+.title-more {
+	margin-top: 4%;
+	text-align: center;
+	font-style: bold;
+}
+.more {
+	text-align: center;
+	display: block;
+	margin-bottom: 2%;
+}
+.livingroom, .bedroom, .diningroom {
+	position: relative;
+}
+.living-center, .bed-center, .dining-center{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	width: 50%;
+}
+.text-room {
+	font-size: 24px;
+	color: #fff;
+	padding-bottom: 5%;
+}
+
+/*New Arivals*/
+#new {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+#new-section {
+	width: 26%;
+}
+.info {
+	text-align: center;
+	margin: 2% 0 5% 0;
+}
+
+/*Save Space*/
+.savespace {
+	display: flex;
+	justify-content: center;
+}
+.save1 {
+	margin-right: 8%;
+}
+.save-text {
+	font-size: 22px;
+	font-style: bold;
+	margin-top: 2%;
+}
+
+/*Most Popular*/
+#popular {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+#popular-section {
+	width: 32%;
+}
+
+/*Subscribe*/
+.subscribe {
+	margin: 5% 0;
+}
+.sub-text {
+	font-size: 22px;
+}
+.sub-form {
+	display: flex;
+	justify-content: center;
+	margin: 2% 0;
+}
+.sub-email{
+	width: 50%;
+	height: 50px;
+	padding: 0 2%;
+}
+.btn-sub {
+	left: 50%;
+	padding: 0!important;
+	width: 200px!important;
+	height: 50px;
+	background: #4267b2;
+	color: #fff;
+}

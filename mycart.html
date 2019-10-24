@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" type="text/css" href="css/all.min.css">
+
+	<!-- Global CSS -->
+	<link rel="stylesheet" type="text/css" href="css/global.css">
+
+	<!-- Responsive CSS -->
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+	<!-- Header CSS -->
+	<link rel="stylesheet" type="text/css" href="css/header.css">
+
+	<!-- Footer CSS -->
+	<link rel="stylesheet" type="text/css" href="css/footer.css">
+
+	<!-- My Cart CSS -->
+	<link rel="stylesheet" type="text/css" href="css/mycart.css">
+
+	<title>Giỏ hàng</title>
+</head>
+<body>
+	<!-- Header -->
+	<div id="header"></div>
+
+	<!-- Breadcrumb -->
+	<div class="breadcrumb-custom">
+		<div class="container">
+			<a href="index.html">Trang chủ </a>/
+			<a href="mycart.html">Giỏ hàng</a>
+		</div>
+	</div>
+
+	<!-- Main -->
+	<div class="cart-wrap container px-0">
+		<div class="col-md-12 col-xs-12 heading-cart">
+			<h1>Giỏ hàng của bạn</h1>
+		</div>
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="cart-content">
+					<table class="cart">
+						<thead>
+							<tr>
+								<th class="product product-info">Sản phẩm</th>
+								<th class="product product-price">Đơn giá</th>
+								<th class="product product-quantity">Số lượng</th>
+								<th class="product product-total">Thành tiền</th>
+								<th class="product product-remove"></th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr class="cart-item">
+								<td class="product-info">
+									<a href="details.html">
+										<img src="images/Products/My Cart/item1.png">
+									</a>
+									<a href="details.html">Sierra Chair</a>
+								</td>
+								<td class="product-price">3,550,000₫</td>
+								<td class="product-quantity">
+									<div class="quantity">
+										<button class="qty-decrease" onclick="" type="button">-</button><input id="qty" type="text" name="quantity" value="1" class="" size="4">
+										<button class="qty-increase" onclick="" type="button">+</button>
+									</div>
+								</td>
+								<td class="product-total">3,550,000₫</td>
+								<td class="product-remove">
+									<button><i class="fa fa-trash-o"></i></button>
+								</td>
+							</tr>
+
+							<tr class="cart-item">
+								<td class="product-info">
+									<a href="details.html">
+										<img src="images/Products/My Cart/item2.png">
+									</a>
+									<a href="details.html">Bronson Sideboard</a>
+								</td>
+								<td class="product-price">5,650,000₫</td>
+								<td class="product-quantity">
+									<div class="quantity">
+										<button class="qty-decrease" onclick="" type="button">-</button><input id="qty" type="text" name="quantity" value="1" class="" size="4">
+										<button class="qty-increase" onclick="" type="button">+</button>
+									</div>
+								</td>
+								<td class="product-total">5,650,000₫</td>
+								<td class="product-remove">
+									<button><i class="fa fa-trash-o"></i></button>
+								</td>
+							</tr>
+
+							<tr class="cart-item">
+								<td class="product-info">
+									<a href="details.html">
+										<img src="images/Products/My Cart/item3.png">
+									</a>
+									<a href="details.html">Tufted Ottoman</a>
+								</td>
+								<td class="product-price">2,995,000₫</td>
+								<td class="product-quantity">
+									<div class="quantity">
+										<button class="qty-decrease" onclick="" type="button">-</button><input id="qty" type="text" name="quantity" value="1" class="" size="4">
+										<button class="qty-increase" onclick="" type="button">+</button>
+									</div>
+								</td>
+								<td class="product-total">2,995,000₫</td>
+								<td class="product-remove">
+									<button><i class="fa fa-trash-o"></i></button>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+
+				<div class="cart-checkout container">
+					<div class="col-xs-12 col-sm-6">
+						<div class="cart-coupon">
+							<h3>Mã giảm giá</h3>
+							<input type="text" value="" placeholder="Nhập mã giảm giá">
+							<button class="apply-coupon link-to">Áp dụng mã giảm giá</button>
+						</div>
+					</div>
+
+					<div class="col-xs-12 col-sm-6">
+						<div class="cart-total">
+							<h3>Tổng tiền</h3>
+							<table>
+								<tbody>
+									<tr class="cart-subtotal">
+										<th>Tạm tính</th>
+										<td>12,195,000‬₫</td>
+									</tr>
+									<tr class="cart-discount">
+										<th>Giảm giá<span class="discount-rate"></span></th>
+										<td>0₫</td>
+									</tr>
+									<tr class="order-total">
+										<th>Tổng tiền</th>
+										<td class="amount">12,195,000‬₫</td>
+									</tr>
+								</tbody>
+							</table>
+
+							<div class="checkout-proceed">
+								<a href="payment.html" class="link-to checkout-button">Tiến hành đặt hàng <i class="fa fa-angle-right"></i></a>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+</div>
+
+<!-- Footer -->
+<div id="footer"></div>
+
+<!-- jQuery -->
+<script src="js/jquery-3.4.1.min.js"></script>
+
+<!-- Popper.js -->
+<script src="js/popper.min.js"></script>
+
+<!-- Bootstrap JS -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Font Awesome -->
+<script src="https://kit.fontawesome.com/bf61fecb7c.js" crossorigin="anonymous"></script>
+
+<!-- Script JS -->
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
