@@ -8,6 +8,12 @@ p {
 	background: #fff;
 	color: #000;
 }
+.index-content {
+	font-family: 'myFont' !important;
+}
+.product-name {
+	font-weight: 600;
+}
 /*Sale*/
 #sale {
 	display: flex;
@@ -26,6 +32,7 @@ p {
 	right: 50%;
 	transform: translate(50%, -23px);
 	padding: 10px;
+	border: 1px solid rgba(175,175,175,0.34);
 }
 .sale-info {
 	text-align: center;
@@ -41,16 +48,20 @@ p {
 	width: 32%;
 }
 .title {
-	margin: 4% 0 3% 0;
+	font-size: 32px;
+	margin: 5% 0 2% 0;
 	text-align: center;
-	font-style: bold;
+	font-weight: 500;
 }
 .title-more {
-	margin-top: 4%;
+	font-size: 32px;
+	font-weight: 500;
+	margin-top: 5%;
 	text-align: center;
 	font-style: bold;
 }
 .more {
+
 	text-align: center;
 	display: block;
 	margin-bottom: 2%;
@@ -67,19 +78,25 @@ p {
 	width: 50%;
 }
 .text-room {
-	font-size: 24px;
+	font-size: 22px;
+	font-weight: 700;
 	color: #fff;
 	padding-bottom: 5%;
+}
+.room-more {
+	font-size: 14px;
 }
 
 /*New Arivals*/
 #new {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 #new-section {
-	width: 26%;
+	width: 20%;
+	margin: 0 5%;
+	margin-bottom: 5%;
 }
 .info {
 	text-align: center;
@@ -87,6 +104,9 @@ p {
 }
 
 /*Save Space*/
+.savespace-title {
+	margin-top: 0;
+}
 .savespace {
 	display: flex;
 	justify-content: center;
@@ -108,14 +128,15 @@ p {
 }
 #popular-section {
 	width: 32%;
+	margin-bottom: 4%;
 }
 
 /*Subscribe*/
 .subscribe {
-	margin: 5% 0;
+	margin-bottom: 5%;
 }
 .sub-text {
-	font-size: 22px;
+	font-size: 18px;
 }
 .sub-form {
 	display: flex;
@@ -123,15 +144,19 @@ p {
 	margin: 2% 0;
 }
 .sub-email{
-	width: 50%;
+	width: 40%;
 	height: 50px;
 	padding: 0 2%;
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
 }
 .btn-sub {
 	left: 50%;
 	padding: 0!important;
-	width: 200px!important;
+	width: 150px!important;
 	height: 50px;
 	background: #4267b2;
 	color: #fff;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
 }

@@ -10,11 +10,11 @@ $(function() {
 			$('#sale').append(`
 				<div id="sale-section">
 				<div class="sale-img">
-				<img src="${item.image}">
+				<a href="details.html"><img src="${item.image}"></a>
 				<p class="sale-tag">UP TO ${item.sale} OFF</p>
 				</div>
 				<div class="sale-info">
-				<p>${item.name}</p>
+				<a href="details.html"><p class="product-name">${item.name}</p></a>
 				<p>${item.price}</p>
 				</div>
 				</div>
@@ -27,7 +27,7 @@ $(function() {
 				<img src="${item.image}">
 				</div>
 				<div class="info">
-				<p>${item.name}</p>
+				<a href="details.html"><p class="product-name">${item.name}</p></a>
 				<p>${item.price}</p>
 				</div>
 				</div>
@@ -42,7 +42,7 @@ $(function() {
 				<img src="${item.image}">
 				</div>
 				<div class="info">
-				<p>${item.name}</p>
+				<a href="details.html"><p class="product-name">${item.name}</p></a>
 				<p>${item.price}</p>
 				</div>
 				</div>
@@ -56,7 +56,7 @@ $(function() {
 				<img src="${item.image}">
 				</div>
 				<div class="info">
-				<p>${item.name}</p>
+				<a href="details.html"><p class="product-name">${item.name}</p></a>
 				<p>${item.price}</p>
 				</div>
 				</div>
