@@ -10,7 +10,7 @@ $(function() {
 			$('#sale').append(`
 				<div id="sale-section">
 				<div class="sale-img">
-				<a href="details.html"><img src="${item.image}"></a>
+				<a href="details.html"><img id="sale-img" src="${item.image}"></a>
 				<p class="sale-tag">UP TO ${item.sale} OFF</p>
 				</div>
 				<div class="sale-info">

@@ -28,6 +28,9 @@
 	text-transform: uppercase;
 	width: 60%;
 }
+#logo:hover {
+	color: #000;
+}
 .logo-zone {
 	display: flex;
 }

@@ -14,10 +14,11 @@ p {
 .product-name {
 	font-weight: 600;
 }
+
 /*Sale*/
 #sale {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 #sale-section {
 	width: 32%

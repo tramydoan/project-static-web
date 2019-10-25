@@ -90,6 +90,7 @@ h1 {
 	font-weight: 500;
 	background: #4267b2;
 	color: #fff;
+	border-radius: 5px;
 }
 .cart-total > table th {
 	width: 70%;
@@ -114,4 +115,5 @@ h1 {
 	font-weight: 500;
 	background: #4267b2;
 	color: #fff;
+	border-radius: 5px;
 }
