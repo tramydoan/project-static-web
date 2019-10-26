@@ -57,10 +57,10 @@
 		<div class="about-content container px-0  py-0 ">
 			<h1>CHÚNG TÔI LÀ 1999</h1>
 			<div class="content content1">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pharetra, mi ut porta molestie, sem neque congue lacus, quis bibendum dolor quam ac lorem. Phasellus luctus tincidunt odio, eget congue est rhoncus nec. Vestibulum id facilisis quam. Nunc porttitor tellus quis pellentesque aliquet. Donec in scelerisque purus. Duis at mollis ipsum, ut fermentum augue. Cras ultricies, nisi non elementum luctus, lacus ante lacinia ipsum, id consequat tellus mi pretium lacus.</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla venenatis arcu quis nisl scelerisque facilisis. Duis ut nisi sem.</p>
+				<p>Được thành lập vào năm 2019, 1999 Furniture nhằm mục đích bao gồm cảm giác tinh tế, thoải mái về lối sống ở Việt Nam thông qua những món đồ nội thất thủ công của họ. 1999 Furniture tự hào về việc tạo ra các tác phẩm vượt thời gian, được chế tạo riêng để phù hợp với nhu cầu cụ thể của khách hàng. Kinh nghiệm thiết kế rộng rãi của họ dễ dàng biến đổi ý tưởng và tầm nhìn thành đồ nội thất chất lượng, chức năng. </p>
+				<p>Được sản xuất tại Việt Nam, mỗi sản phẩm đều được làm thủ công với sự chú ý lớn đến từng chi tiết và tập trung riêng biệt vào các quy trình riêng lẻ có liên quan. Tuổi thọ và tay nghề được ưu tiên thông qua việc lựa chọn chỉ các vật liệu chất lượng cao nhất hiện có. </p>
 				<img class="content1-img align-content-center" style="max-width: 100%;" src="images/About/img1.png">
-				<p>Fusce tempor lacus et dolor efficitur ullamcorper. Vestibulum convallis, quam eu tristique volutpat, enim tellus eleifend purus, id scelerisque velit nibh sed ipsum. Nam ultrices enim ac vestibulum dignissim. Maecenas interdum non velit ut semper. Vestibulum a ante vel nisl venenatis commodo.</p>
+				<p>1999 Furniture coi không gian nội thất chỉ là một vật liệu khác theo ý của họ, quan điểm này cho phép đội ngũ thiết kế của họ trình bày quy mô theo những cách độc đáo và thú vị. Cam kết những đặc điểm xác định của thiết kế hiện đại với cam kết tối đa trong việc sử dụng vật liệu tự nhiên, 1999 Furniture tạo ra một thế hệ nội thất mới vượt thời gian.</p>
 			</div>
 			<h1>TẠI SAO NÊN CHỌN 1999</h1>
 			<div class="content content2">
@@ -95,5 +95,33 @@
 
 	<!-- Script JS -->
 	<script type="text/javascript" src="js/script.js"></script>
+
+
+	<!-- Load Facebook SDK for JavaScript -->
+	<div id="fb-root"></div>
+	<script>
+		window.fbAsyncInit = function() {
+			FB.init({
+				xfbml            : true,
+				version          : 'v4.0'
+			});
+		};
+
+		(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+
+		<!-- Your customer chat code -->
+		<div class="fb-customerchat"
+		attribution=setup_tool
+		page_id="100109491404271"
+		theme_color="#4267b2"
+		logged_in_greeting="Chat với nhân viên bán hàng! "
+		logged_out_greeting="Chat với nhân viên bán hàng! ">
+	</div>
 </body>
 </html>

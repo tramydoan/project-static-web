@@ -69,11 +69,11 @@
 								<td class="product-price">3,550,000₫</td>
 								<td class="product-quantity">
 									<div class="quantity">
-										<button class="qty-decrease" onclick="" type="button">-</button><input id="qty" type="text" name="quantity" value="1" class="" size="4">
-										<button class="qty-increase" onclick="" type="button">+</button>
+										<button class="qty-decrease" onclick="decreaseNumber('qty1',3550000)" type="button">-</button><input id="qty1" type="text" name="quantity1" value="1" class="" size="4">
+										<button class="qty-increase" onclick="increaseNumber('qty1',3550000)" type="button">+</button>
 									</div>
 								</td>
-								<td class="product-total">3,550,000₫</td>
+								<td class="product-total" id="total-qty1">3550000</td>
 								<td class="product-remove">
 									<button><i class="fa fa-trash-o"></i></button>
 								</td>
@@ -89,11 +89,11 @@
 								<td class="product-price">5,650,000₫</td>
 								<td class="product-quantity">
 									<div class="quantity">
-										<button class="qty-decrease" onclick="" type="button">-</button><input id="qty" type="text" name="quantity" value="1" class="" size="4">
-										<button class="qty-increase" onclick="" type="button">+</button>
+										<button class="qty-decrease" onclick="decreaseNumber('qty2',5650000)" type="button">-</button><input id="qty2" type="text" name="quantity2" value="1" class="" size="4">
+										<button class="qty-increase" onclick="increaseNumber('qty2',5650000)" type="button">+</button>
 									</div>
 								</td>
-								<td class="product-total">5,650,000₫</td>
+								<td class="product-total" id="total-qty2">5650000</td>
 								<td class="product-remove">
 									<button><i class="fa fa-trash-o"></i></button>
 								</td>
@@ -109,11 +109,11 @@
 								<td class="product-price">2,995,000₫</td>
 								<td class="product-quantity">
 									<div class="quantity">
-										<button class="qty-decrease" onclick="" type="button">-</button><input id="qty" type="text" name="quantity" value="1" class="" size="4">
-										<button class="qty-increase" onclick="" type="button">+</button>
+										<button class="qty-decrease" onclick="decreaseNumber('qty3',2995000)" type="button">-</button><input id="qty3" type="text" name="quantity3" value="1" class="" size="4">
+										<button class="qty-increase" onclick="increaseNumber('qty3',2995000)" type="button">+</button>
 									</div>
 								</td>
-								<td class="product-total">2,995,000₫</td>
+								<td class="product-total" id="total-qty3">2995000</td>
 								<td class="product-remove">
 									<button><i class="fa fa-trash-o"></i></button>
 								</td>
@@ -138,7 +138,7 @@
 								<tbody>
 									<tr class="cart-subtotal">
 										<th>Tạm tính</th>
-										<td>12,195,000‬₫</td>
+										<td id="total">12,195,000‬₫</td>
 									</tr>
 									<tr class="cart-discount">
 										<th>Giảm giá<span class="discount-rate"></span></th>
@@ -146,7 +146,7 @@
 									</tr>
 									<tr class="order-total">
 										<th>Tổng tiền</th>
-										<td class="amount">12,195,000‬₫</td>
+										<td class="amount" id="amount"></td>
 									</tr>
 								</tbody>
 							</table>
@@ -163,7 +163,34 @@
 		
 	</div>
 </div>
+<script>
+	var amount = document.getElementById('amount');
+	var total1 = document.getElementById('total-qty1');
+	var total2 = document.getElementById('total-qty2');
+	var total3 = document.getElementById('total-qty3');
+	window.addEventListener('load', function() {
+		amount.innerText = (parseInt(total1.innerText) + parseInt(total2.innerText) + parseInt(total3.innerText)) + 'đ'
+	})
+	function increaseNumber (name, price) {
+		var qty = document.getElementById(name);
+		qty.value ++;
+		var total = document.getElementById('total-' + name);
+		total.innerText = (qty.value * price)
+		amount.innerText = (parseInt(total1.innerText) + parseInt(total2.innerText) + parseInt(total3.innerText)) + 'đ'
+		
+	}
+	function decreaseNumber (name, price) {
+		var qty = document.getElementById(name);
+		qty.value --;
+		if (qty.value < 1) {
+			qty.value = 1
+		}
+		var total = document.getElementById('total-' + name);
+		total.innerText = (qty.value * price)
 
+		amount.innerText = (parseInt(total1.innerText) + parseInt(total2.innerText) + parseInt(total3.innerText)) + 'đ'
+	}
+</script>
 <!-- Footer -->
 <div id="footer"></div>
 
@@ -181,5 +208,32 @@
 
 <!-- Script JS -->
 <script type="text/javascript" src="js/script.js"></script>
+
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>
+	window.fbAsyncInit = function() {
+		FB.init({
+			xfbml            : true,
+			version          : 'v4.0'
+		});
+	};
+
+	(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+
+	<!-- Your customer chat code -->
+	<div class="fb-customerchat"
+	attribution=setup_tool
+	page_id="100109491404271"
+	theme_color="#4267b2"
+	logged_in_greeting="Chat với nhân viên bán hàng! "
+	logged_out_greeting="Chat với nhân viên bán hàng! ">
+</div>
 </body>
 </html>

@@ -48,3 +48,21 @@ Trang index.html
  		margin: 0 auto !important;
  	}
  }
+
+   /**************
+ Trang footer.html
+ **************/
+ @media screen and (max-width: 960px) {
+ 	.footer {
+ 		flex-wrap: wrap;
+ 		justify-content: space-between;
+ 	}
+ 	.footer .footer-list {
+ 		width: 30%
+ 	}
+ }
+ @media screen and (max-width: 600px) {
+ 	.footer {
+ 		font-size: 14px;
+ 	}
+ }

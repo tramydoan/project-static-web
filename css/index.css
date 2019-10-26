@@ -35,9 +35,23 @@ p {
 	padding: 10px;
 	border: 1px solid rgba(175,175,175,0.34);
 }
+@media screen and (max-width: 600px) {
+	.sale-tag {
+		display: none
+	}
+}
 .sale-info {
 	text-align: center;
 	margin-top: 35px;
+}
+#sale-img, .popular-img img {
+	max-width: 100%
+}
+.save-img img, .new-img img{
+	max-width: 100%
+}
+.room-img img {
+	max-width: 100%
 }
 
 /*Room*/
@@ -45,24 +59,40 @@ p {
 	display: flex;
 	justify-content: center;
 }
+@media screen and (max-width: 600px) {
+	.room > * {
+		width: 100%
+	}
+	.room ? * .btn {
+		padding: 5px!important
+	}
+	.text-room {
+		font-size: 14px!important
+	}
+	.room-img {
+		width: 100%!important
+	}
+}
 .room-img {
 	width: 32%;
 }
 .title {
-	font-size: 32px;
-	margin: 5% 0 2% 0;
+	font-size: 28px;
+	margin: 2% 0 2% 0;
 	text-align: center;
 	font-weight: 500;
 }
+.title-room {
+	margin-top: 5%;
+}
 .title-more {
-	font-size: 32px;
+	font-size: 28px;
 	font-weight: 500;
 	margin-top: 5%;
 	text-align: center;
 	font-style: bold;
 }
 .more {
-
 	text-align: center;
 	display: block;
 	margin-bottom: 2%;
@@ -117,8 +147,16 @@ p {
 }
 .save-text {
 	font-size: 22px;
-	font-style: bold;
+	font-weight: 500;
 	margin-top: 2%;
+}
+@media screen and (max-width: 600px) {
+	.save-text {
+		font-size: 14px;
+	}
+	.sub-text {
+		font-size: 15px;
+	}
 }
 
 /*Most Popular*/

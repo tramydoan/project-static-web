@@ -51,13 +51,13 @@
 			<img class="mySlides" src="images/Products/Details/small5.jpg" style="width:100%;display:none">
 
 			<div class="w3-row-padding w3-section">
-				<div class="w3-col s4">
+				<div class="w3-col s3">
 					<img class="demo w3-opacity w3-hover-opacity-off" src="images/Products/Details/small4.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(1)">
 				</div>
-				<div class="w3-col s4">
+				<div class="w3-col s3">
 					<img class="demo w3-opacity w3-hover-opacity-off" src="images/Products/Details/small1.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(2)">
 				</div>
-				<div class="w3-col s4">
+				<div class="w3-col s3">
 					<img class="demo w3-opacity w3-hover-opacity-off" src="images/Products/Details/small5.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(3)">
 				</div>
 			</div>
@@ -71,7 +71,7 @@
 			</div>
 			<div class="product-price"><span>3,550,000₫</span></div>
 			<p class="categories">Danh mục: <a href="newarivals.html">Phòng ngủ</a>, <a href="newarivals.html">Ghế</a></p>
-			<span>Số lượng</span>
+			<p>Số lượng</p>
 			<div class="buy">
 				<div class="quantity">
 					<button class="qty-decrease" onclick="" type="button">-</button>
@@ -79,7 +79,10 @@
 					<button class="qty-increase" onclick="" type="button">+</button>
 				</div>
 				<div class="button-cart">
-					<button type="submit" class="btn add-to-cart link-to"><a id="link-add-to-cart" href="mycart.html">THÊM VÀO GIỎ</a></button>
+					<a id="link-add-to-cart" href="mycart.html"><button type="submit" class="btn add-to-cart buy-now link-to">MUA NGAY</button></a>
+				</div>
+				<div class="button-cart">
+					<a id="link-add-to-cart" href="mycart.html"><button type="submit" class="btn add-to-cart add-to-cart2 link-to">THÊM VÀO GIỎ</button></a>
 				</div>
 			</div>
 			<div>
@@ -109,30 +112,41 @@
 	</div> 
 	<div class="related-product container px-0">
 		<p class="related-product-header" style="text-align: center;">SẢN PHẨM LIÊN QUAN</p>
-		<div class="row">
-			<div class="col-item col-xs-6 col-md-4">
+		<div class="related-items">
+			<a href="#" class="related-item">
 				<div class="item-container">
 					<div class="photo">
 						<img src="images/Products/Details/related1.png">
 					</div>
 					<div class="info">
-						<p style="font-weight: 600;">Leather Sierra Chair in Havana</p>
+						<p style="font-weight: 600;"><a href="details.html">Leather Sierra Chair in Havana</a></p>
 						<p style="font-weight: 500;">2,075,000₫</p>
 					</div>
 				</div>
-			</div>
-			<div class="col-item col-xs-6 col-md-4">
+			</a>
+			<a href="#" class="related-item">
 				<div class="item-container">
 					<div class="photo">
 						<img src="images/Products/Details/related2.png">
 					</div>
 					<div class="info">
-						<p style="font-weight: 600;">Narrow Sierra Chair</p>
+						<p style="font-weight: 600;"><a href="details.html">Narrow Sierra Chair</a></p>
 						<p style="font-weight: 500;">1,075,000₫</p>
 					</div>
 				</div>
-			</div>
-			<div class="col-item col-xs-6 col-md-4">
+			</a>
+			<a href="#" class="related-item">
+				<div class="item-container">
+					<div class="photo">
+						<img src="images/Products/Details/related3.png">
+					</div>
+					<div class="info">
+						<p style="font-weight: 600;"><a href="details.html">Latigo Dining Chair</a></p>
+						<p style="font-weight: 500;">1,250,000₫</p>
+					</div>
+				</div>
+			</a>
+			<a href="#" class="related-item">
 				<div class="item-container">
 					<div class="photo">
 						<img src="images/Products/Details/related3.png">
@@ -142,7 +156,7 @@
 						<p style="font-weight: 500;">1,250,000₫</p>
 					</div>
 				</div>
-			</div>
+			</a>
 		</div>
 	</div>
 
@@ -163,5 +177,32 @@
 	
 	<!-- Script JS -->
 	<script type="text/javascript" src="js/script.js"></script>
+
+	<!-- Load Facebook SDK for JavaScript -->
+	<div id="fb-root"></div>
+	<script>
+		window.fbAsyncInit = function() {
+			FB.init({
+				xfbml            : true,
+				version          : 'v4.0'
+			});
+		};
+
+		(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+
+		<!-- Your customer chat code -->
+		<div class="fb-customerchat"
+		attribution=setup_tool
+		page_id="100109491404271"
+		theme_color="#4267b2"
+		logged_in_greeting="Chat với nhân viên bán hàng! "
+		logged_out_greeting="Chat với nhân viên bán hàng! ">
+	</div>
 </body>
 </html>
