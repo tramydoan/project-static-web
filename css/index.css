@@ -51,6 +51,7 @@ p {
 	max-width: 100%
 }
 
+
 /*Room*/
 .room {
 	display: flex;
@@ -69,6 +70,9 @@ p {
 	.room-img {
 		width: 100%!important
 	}
+	.room-img img {
+	max-width: 100%
+}
 }
 .room-img {
 	width: 32%;
