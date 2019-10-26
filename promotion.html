@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" type="text/css" href="css/all.min.css">
+
+	<!-- Global CSS -->
+	<link rel="stylesheet" type="text/css" href="css/global.css">
+
+	<!-- Responsive CSS -->
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+	<!-- Header CSS -->
+	<link rel="stylesheet" type="text/css" href="css/header.css">
+
+	<!-- Footer CSS -->
+	<link rel="stylesheet" type="text/css" href="css/footer.css">
+
+	<!-- Promotion CSS -->
+	<link rel="stylesheet" type="text/css" href="css/promotion.css">
+
+	<title>Khuyến mãi</title>
+</head>
+<body>
+	<!-- Header -->
+	<div id="header"></div>
+
+	<!-- Banner -->
+	<div class="wrap">
+		<div class="banner">
+			<div class="banner-img ">
+				<img class="img-fluid" src="images/Promotion/banner.png">
+			</div>
+			<div class="banner-text">
+				<p class="bnt1" style="margin: 0">Chương trình khuyến mãi</p>
+				<p class="bnt2" style="margin: 0">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- Breadcrumb -->
+	<div class="breadcrumb-custom">
+		<div class="container">
+			<a href="index.html">Trang chủ </a>/
+			<a href="promotion.html">Chương trình khuyến mãi</a>
+		</div>
+	</div>
+	<!-- Main -->
+	<div class="promotion-wrap container px-0">
+		<p class="heading">Các chương trình khuyến mãi</p>
+		<div class="promotion-content">
+			<p class="title"><strong>CHƯƠNG TRÌNH XUYÊN SUỐT</strong></p>
+			<ol>
+				<li><strong>Khách hàng thân thiết:</strong></li>
+				<span>Khi tích đủ doanh số mua hàng 10.000.000đ, quý khách sẽ trở thành Khách hàng thân thiết và nhận mức ưu đãi giảm 10% không giới hạn cho các đơn hàng sau. Có thể áp dụng chung với <strong>một số</strong> chương trình khuyến mãi hiện tại.</span>
+				<li><strong>Mua ghế kèm theo bàn làm việc:</strong></li>
+				<span>Nhận mức giảm 100.000đ trên bàn làm việc (size S, M, L) khi mua ghế. Mỗi bàn tương ứng với một ghế và phải cùng 1 hoá đơn. Không thể áp dụng chung với các chương trình khuyến mãi hiện tại.</span>
+			</ol>
+
+			<p class="title"><strong>CHƯƠNG TRÌNH HIỆN TẠI</strong></p>
+			<p class="promotion-title">LỄ 20 THÁNG 10 (Đã kết thúc)</p>
+		</div>
+	</div>
+	<!-- Footer -->
+	<div id="footer"></div>
+
+	<!-- jQuery -->
+	<script src="js/jquery-3.4.1.min.js"></script>
+
+	<!-- Popper.js -->
+	<script src="js/popper.min.js"></script>
+
+	<!-- Bootstrap JS -->
+	<script src="js/bootstrap.min.js"></script>
+
+	<!-- Font Awesome -->
+	<script src="https://kit.fontawesome.com/bf61fecb7c.js" crossorigin="anonymous"></script>
+
+	<!-- Script JS -->
+	<script type="text/javascript" src="js/script.js"></script>
+
+	<!-- Load Facebook SDK for JavaScript -->
+	<div id="fb-root"></div>
+	<script>
+		window.fbAsyncInit = function() {
+			FB.init({
+				xfbml            : true,
+				version          : 'v4.0'
+			});
+		};
+
+		(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+
+		<!-- Your customer chat code -->
+		<div class="fb-customerchat"
+		attribution=setup_tool
+		page_id="100109491404271"
+		theme_color="#4267b2"
+		logged_in_greeting="Chat với nhân viên bán hàng! "
+		logged_out_greeting="Chat với nhân viên bán hàng! ">
+	</div>
+</body>
+</html>
