@@ -81,6 +81,22 @@
 	color: #fff;
 }
 
+@media screen and (max-width: 600px) {
+	.buy {
+		flex-direction: column;
+	}
+	.quantity {
+		width: 55%;
+	}
+	.add-to-cart {
+		font-size: 12px!important;
+	}
+	.button-cart {
+		width: 55%;
+		margin: 3px 0;
+	}
+}
+
 /*Nav tabs*/
 .nav-tabs {
 	padding-left: 20px;
@@ -135,4 +151,10 @@
 .info p:nth-child(2) {
 	color: #4267b2;
 	font-size: 18px;
+}
+
+@media screen and (max-width: 600px) {
+	.item-container {
+		margin: 10px;
+	}
 }

@@ -65,14 +65,18 @@ p {
 		padding: 5px!important
 	}
 	.text-room {
-		font-size: 14px!important
+		font-size: 12px!important
+	}
+	.room-more {
+		font-size: 12px!important;
+		display: flex;
 	}
 	.room-img {
 		width: 100%!important
 	}
 	.room-img img {
-	max-width: 100%
-}
+		max-width: 100%
+	}
 }
 .room-img {
 	width: 32%;

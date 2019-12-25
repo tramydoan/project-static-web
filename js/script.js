@@ -24,7 +24,7 @@ $(function() {
 			$('#new').append(`
 				<div id="new-section">
 				<div class="new-img">
-				<img src="${item.image}">
+				<a href="details.html"><img src="${item.image}"></a>
 				</div>
 				<div class="info">
 				<a href="details.html"><p class="product-name">${item.name}</p></a>
@@ -39,7 +39,7 @@ $(function() {
 			$('#popular').append(`
 				<div id="popular-section">
 				<div class="popular-img">
-				<img src="${item.image}">
+				<a href="details.html"><img src="${item.image}"></a>
 				</div>
 				<div class="info">
 				<a href="details.html"><p class="product-name">${item.name}</p></a>
@@ -53,7 +53,7 @@ $(function() {
 			$('#newarivals-item').append(`
 				<div id="newarivals-section">
 				<div class="newarivals-img">
-				<img src="${item.image}">
+				<a href="details.html"><img src="${item.image}"></a>
 				</div>
 				<div class="info">
 				<a href="details.html"><p class="product-name">${item.name}</p></a>

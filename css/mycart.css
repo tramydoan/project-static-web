@@ -17,7 +17,7 @@ h1 {
 	.cart-content {
 		padding: 40px 0
 	}
-	}
+}
 .cart-content .cart {
 	width: 100%;
 	table-layout: fixed;
@@ -35,7 +35,10 @@ h1 {
 }
 @media screen and (max-width: 600px) {
 	.product-total {
-		    text-align: right;
+		text-align: center;
+	}
+	.cart td {
+		padding: 10px 0!important;
 	}
 }
 
